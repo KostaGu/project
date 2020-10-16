@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <a href="/forms/main.html" class="logo">
+          <img
+            src="../img/logo/logo-vertical.png"
+            alt="logo"
+            class="logo__pic"
+          />
+        </a>
+        <aside class="sidebar">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <div class="menu__title">
+                  <a href="/forms/main.html" class="menu__link">Главная</a>
+                </div>
+              </li>
+              <li class="menu__item">
+                <div class="menu__title">
+                  <a href="/forms/services.html" class="menu__link">Услуги</a>
+                </div>
+              </li>
+              <li class="menu__item">
+                <div class="menu__title">
+                  <a href="/forms/reviews.html" class="menu__link">Отзывы</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <address class="contacts">
+          <a href="tel: +7800700303" class="contacts__phone">8 800 700 30 30</a>
+          <div class="contacts__workhours">график работы</div>
+        </address>
+        <h1>Отзывы</h1>
+        <nav class="breadcrums">
+          <ul class="breadcrums__list">
+            <il class="breadcrums__items">
+              <a href="/forms/main.html" class="breadcrums__list">Главная</a>
+              <div class="breadcrums__separation">/</div>
+            </il>
+            <il class="breadcrums__active-items">
+              <a href="/forms/reviews.html" class="breadcrums__active-list"
+                >Отзывы</a
+              >
+            </il>
+          </ul>
+        </nav>
+      </header>
+      <main class="revew">
+        <div class="revew-members">
+          <ul class="revew-members__">
+            <li class="revew-members__item">
+              <img src="/img/reviews/ginger.jpg" alt="photo" />
+              <div>
+                <h4>Иван</h4>
+                <img src="/img/logo/vk-colored.png" alt="logo-vk" />
+                <ul>
+                  <li>Карта банка</li>
+                  <li>Ипотека</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Доволен работой банка</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, facilis.
+                </p>
+              </div>
+              <div class="data">Ноябрь 2019</div>
+            </li>
+            <li class="revew-members__item">
+              <img src="/img/reviews/girl.jpg" alt="photo" />
+              <div>
+                <h4>Екатерина</h4>
+                <img src="/img/logo/vk-colored.png" alt="logo-vk" />
+                <ul>
+                  <li>Ипотека</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Удобная служба поддкржки</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, facilis.
+                </p>
+              </div>
+              <div class="data">Ноябрь 2019</div>
+            </li>
+            <li class="revew-members__item">
+              <img src="/img/reviews/liza.jpg" alt="photo" />
+              <div>
+                <h4>Лиза</h4>
+                <img src="/img/logo/vk-colored.png" alt="logo-vk" />
+                <ul>
+                  <li>Карта банка</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Хорошие условия</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, facilis.
+                </p>
+              </div>
+              <div class="data">Ноябрь 2019</div>
+            </li>
+            <li class="revew-members__item">
+              <img src="/img/reviews/guy.jpg" alt="photo" />
+              <div>
+                <h4>Антон</h4>
+                <img src="/img/logo/vk-colored.png" alt="logo-vk" />
+                <ul>
+                  <li>Автокредит</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Операторы вежливые</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, facilis.
+                </p>
+              </div>
+              <div class="data">Ноябрь 2019</div>
+            </li>
+          </ul>
+        </div>
+        <div class="paginator">
+          <div class="paginator__display">Страница 1 из 7</div>
+          <a href="#" class="paginator__prev"><</a>
+          <ul class="paginator__list">
+            <li class="page_items">1</li>
+            <li class="page_items">2</li>
+            <li class="page_items">3</li>
+            <li class="page_items">4</li>
+            <li class="page_items">5</li>
+            <li class="page_items">6</li>
+            <li class="page_items">7</li>
+          </ul>
+          <a href="#" class="paginator__prev">></a>
+        </div>
+        <div class="mobile">
+          <img
+            src="/img/reviews/phone-n-hand.png"
+            alt="phone"
+            class="mobile__img"
+          />
+          <h2 class="mobile-title">Lion-online</h2>
+        </div>
+        <div class="new-reviews">
+          <h2 class="new-reviwes__title">Оставить отзыв</h2>
+          <form action="">
+            <input type="text" placeholder="Илья Петрович" />
+            <input type="text" placeholder="Ссылка на профиль" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Ваш комментарий"
+            ></textarea>
+            <p>Какими услугами банка вы пользуетесь?</p>
+            <label for="card-basik"> Карта Базовая </label>
+            <input type="checkbox" id="card-basik" />
+            <label for="card-optima">Карта Оптима</label>
+            <input type="checkbox" id="card-optima" />
+            <label for="card-platinum">Карта Платинум</label>
+            <input type="checkbox" id="card-platinum" />
+            <label for="mortgage">Ипотека</label>
+            <input type="checkbox" id="mortgage" />
+            <label for="autocredit">Автокредит</label>
+            <input type="checkbox" id="autocredit" />
+            <label for="nothing">Никакими</label>
+            <input type="checkbox" id="nothing" />
+            <label for="other">Другое</label>
+            <input type="checkbox" id="other" />
+
+            <input type="reset" value="Очистить" />
+            <input type="submit" value="Отправить" />
+          </form>
+        </div>
+      </main>
+      <footer class="footer">
+        <a href="/forms/main.html" class="logo">
+          <img
+            src="../img/logo/logo-vertical.png"
+            alt="logo"
+            class="logo__pic"
+          />
+        </a>
+        <aside class="sidebar">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <div class="menu__title">
+                  <a href="/forms/main.html" class="menu__link">Главная</a>
+                </div>
+              </li>
+              <li class="menu__item">
+                <div class="menu__title">
+                  <a href="/forms/services.html" class="menu__link">Услуги</a>
+                </div>
+              </li>
+              <li class="menu__item">
+                <div class="menu__title">
+                  <a href="/forms/reviews.html" class="menu__link">Отзывы</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <ul class="network">
+          <li class="network__item">
+            <a href="#" class="network__link">
+              <img
+                src="../img/logo/telegram.png"
+                alt="telegtam"
+                class="network__img"
+            /></a>
+          </li>
+          <li class="network__item">
+            <a href="#" class="network__link"
+              ><img src="../img/logo/vk.png" alt="vk" class="network__img"
+            /></a>
+          </li>
+          <li class="network__item">
+            <a href="#" class="network__link"
+              ><img
+                src="../img/logo/facebook.png"
+                alt="fb"
+                class="network__img"
+            /></a>
+          </li>
+          <li class="network__item">
+            <a href="#" class="network__lin k">
+              <img
+                src="../img/logo/instagram.png"
+                alt="instegram"
+                class="network__img"
+              />
+            </a>
+          </li>
+        </ul>
+        <address class="contacts">
+          <a href="tel: +7800700303" class="contacts__phone">8 800 700 30 30</a>
+          <div class="contacts__workhours">график работы</div>
+        </address>
+      </footer>
+    </div>
+  </body>
+</html>
