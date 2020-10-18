@@ -46,7 +46,9 @@
           <div class="promo">
             <h1 class="promo__title">Не отказывай в желании быть первывым</h1>
             <p class="promo__slogan">Банк с львиным характером</p>
-            <button class="promo__button">подробнее</button>
+            <div class="promo__button">
+              <button class="promo__button">подробнее</button>
+            </div>
           </div>
           <div class="offers">
             <h3 class="offers__title">Лучшие предложения банка</h3>
@@ -65,7 +67,9 @@
                   <p class="tariff-card__description">
                     Кэшбэк за любые покупки
                   </p>
-                  <button class="tariff-card__button">ПОДРОБНЕЕ</button>
+                  <div class="tariff-card__button">
+                    <button class="button">ПОДРОБНЕЕ</button>
+                  </div>
                 </div>
               </li>
               <li class="offers__item">
@@ -82,7 +86,9 @@
                   <p class="tariff-card__description">
                     Кэшбэк за любые покупки
                   </p>
-                  <button class="tariff-card__button">ПОДРОБНЕЕ</button>
+                  <div class="tariff-card__button">
+                    <button class="button">ПОДРОБНЕЕ</button>
+                  </div>
                 </div>
               </li>
               <li class="offers__item">
@@ -99,7 +105,9 @@
                   <p class="tariff-card___description">
                     Кэшбэк за любые покупки
                   </p>
-                  <button class="tariff-card___button">ПОДРОБНЕЕ</button>
+                  <div class="tariff-card___button">
+                    <button class="button">ПОДРОБНЕЕ</button>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -135,20 +143,35 @@
               </div>
             </li>
           </ul>
-        </div>
-        <div class="paginator">
-          <div class="paginator__display">Страница 1 из 7</div>
-          <a href="#" class="paginator__prev"><</a>
-          <ul class="paginator__list">
-            <li class="page_items">1</li>
-            <li class="page_items">2</li>
-            <li class="page_items">3</li>
-            <li class="page_items">4</li>
-            <li class="page_items">5</li>
-            <li class="page_items">6</li>
-            <li class="page_items">7</li>
-          </ul>
-          <a href="#" class="paginator__prev">></a>
+          <div class="paginator">
+            <div class="paginator__display">
+              Страница <span class="span paginator__display-current">1</span> из
+              <span class="span paginator__display-all">7</span>
+            </div>
+            <ul class="paginator__list">
+              <li class="paginator__items">
+                <a href="" class="paginator__link">1</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">2</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">3</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">4</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">5</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">6</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">7</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="review">
           <img src="../img/1padge/chess.jpg" alt="chess" class="review__img" />
@@ -159,7 +182,9 @@
             на русском языке, а начинающему оратору отточить навык публичных
             выступлений в домашних условиях.
           </p>
-          <button class="review__button">ПОДРОБНЕЕ</button>
+          <div class="review__button">
+            <button class="button">ПОДРОБНЕЕ</button>
+          </div>
         </div>
       </main>
       <hr />
@@ -192,41 +217,43 @@
             </ul>
           </nav>
         </aside>
-        <ul class="network">
-          <li class="network__item">
-            <a href="#" class="network__link">
-              <img
-                src="../img/logo/telegram.png"
-                alt="telegtam"
-                class="network__img"
-            /></a>
-          </li>
-          <li class="network__item">
-            <a href="#" class="network__link"
-              ><img src="../img/logo/vk.png" alt="vk" class="network__img"
-            /></a>
-          </li>
-          <li class="network__item">
-            <a href="#" class="network__link"
-              ><img
-                src="../img/logo/facebook.png"
-                alt="fb"
-                class="network__img"
-            /></a>
-          </li>
-          <li class="network__item">
-            <a href="#" class="network__lin k">
-              <img
-                src="../img/logo/instagram.png"
-                alt="instegram"
-                class="network__img"
-              />
-            </a>
-          </li>
-        </ul>
+        <div class="network">
+          <ul class="network__list">
+            <li class="network__item">
+              <a href="#" class="network__link">
+                <img
+                  src="../img/logo/telegram.png"
+                  alt="telegtam"
+                  class="network__img"
+              /></a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__link"
+                ><img src="../img/logo/vk.png" alt="vk" class="network__img"
+              /></a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__link"
+                ><img
+                  src="../img/logo/facebook.png"
+                  alt="fb"
+                  class="network__img"
+              /></a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__lin k">
+                <img
+                  src="../img/logo/instagram.png"
+                  alt="instegram"
+                  class="network__img"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
         <address class="contacts">
+          <div class="contacts__work">бесплатный звонок по России</div>
           <a href="tel: +7800700303" class="contacts__phone">8 800 700 30 30</a>
-          <div class="contacts__workhours">график работы</div>
         </address>
       </footer>
     </div>

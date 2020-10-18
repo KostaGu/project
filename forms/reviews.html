@@ -46,10 +46,9 @@
           <ul class="breadcrums__list">
             <il class="breadcrums__items">
               <a href="./main.html" class="breadcrums__list">Главная</a>
-              <div class="breadcrums__separation">/</div>
             </il>
-            <il class="breadcrums__active-items">
-              <a href="./reviews.html" class="breadcrums__active-list"
+            <il class="breadcrums__items">
+              <a href="./reviews.html" class="breadcrums__items_active"
                 >Отзывы</a
               >
             </il>
@@ -58,7 +57,7 @@
       </header>
       <main class="revew">
         <div class="revew-members">
-          <ul class="revew-members__">
+          <ul class="revew-members__list">
             <li class="revew-members__item">
               <img src="../img/reviews/ginger.jpg" alt="photo" />
               <div>
@@ -133,20 +132,36 @@
               <div class="data">Ноябрь 2019</div>
             </li>
           </ul>
-        </div>
-        <div class="paginator">
-          <div class="paginator__display">Страница 1 из 7</div>
-          <a href="#" class="paginator__prev"><</a>
-          <ul class="paginator__list">
-            <li class="page_items">1</li>
-            <li class="page_items">2</li>
-            <li class="page_items">3</li>
-            <li class="page_items">4</li>
-            <li class="page_items">5</li>
-            <li class="page_items">6</li>
-            <li class="page_items">7</li>
-          </ul>
-          <a href="#" class="paginator__prev">></a>
+
+          <div class="paginator">
+            <div class="paginator__display">
+              Страница <span class="span paginator__display-current">1</span> из
+              <span class="span paginator__display-all">7</span>
+            </div>
+            <ul class="paginator__list">
+              <li class="paginator__items">
+                <a href="" class="paginator__link">1</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">2</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">3</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">4</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">5</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">6</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">7</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="mobile">
           <img
@@ -218,41 +233,43 @@
             </ul>
           </nav>
         </aside>
-        <ul class="network">
-          <li class="network__item">
-            <a href="#" class="network__link">
-              <img
-                src="../img/logo/telegram.png"
-                alt="telegtam"
-                class="network__img"
-            /></a>
-          </li>
-          <li class="network__item">
-            <a href="#" class="network__link"
-              ><img src="../img/logo/vk.png" alt="vk" class="network__img"
-            /></a>
-          </li>
-          <li class="network__item">
-            <a href="#" class="network__link"
-              ><img
-                src="../img/logo/facebook.png"
-                alt="fb"
-                class="network__img"
-            /></a>
-          </li>
-          <li class="network__item">
-            <a href="#" class="network__lin k">
-              <img
-                src="../img/logo/instagram.png"
-                alt="instegram"
-                class="network__img"
-              />
-            </a>
-          </li>
-        </ul>
+        <div class="network">
+          <ul class="network__list">
+            <li class="network__item">
+              <a href="#" class="network__link">
+                <img
+                  src="../img/logo/telegram.png"
+                  alt="telegtam"
+                  class="network__img"
+              /></a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__link"
+                ><img src="../img/logo/vk.png" alt="vk" class="network__img"
+              /></a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__link"
+                ><img
+                  src="../img/logo/facebook.png"
+                  alt="fb"
+                  class="network__img"
+              /></a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__lin k">
+                <img
+                  src="../img/logo/instagram.png"
+                  alt="instegram"
+                  class="network__img"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
         <address class="contacts">
+          <div class="contacts__work">бесплатный звонок по России</div>
           <a href="tel: +7800700303" class="contacts__phone">8 800 700 30 30</a>
-          <div class="contacts__workhours">график работы</div>
         </address>
       </footer>
     </div>

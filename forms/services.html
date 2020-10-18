@@ -45,11 +45,10 @@
         <nav class="breadcrums">
           <ul class="breadcrums__list">
             <il class="breadcrums__items">
-              <a href="/forms/main.html" class="breadcrums__list">Главная</a>
-              <div class="breadcrums__separation">/</div>
+              <a href="./main.html" class="breadcrums__list">Главная</a>
             </il>
-            <il class="breadcrums__active-items">
-              <a href="/forms/services.html" class="breadcrums__active-list"
+            <il class="breadcrums__items">
+              <a href="./services.html" class="breadcrums__items_active"
                 >Услуги</a
               >
             </il>
@@ -94,120 +93,136 @@
               </article>
             </li>
           </ul>
-        </div>
-        <div class="paginator">
-          <div class="paginator__display">Страница 1 из 7</div>
-          <a href="#" class="paginator__prev"><</a>
-          <ul class="paginator__list">
-            <li class="page_items">1</li>
-            <li class="page_items">2</li>
-            <li class="page_items">3</li>
-            <li class="page_items">4</li>
-            <li class="page_items">5</li>
-            <li class="page_items">6</li>
-            <li class="page_items">7</li>
-          </ul>
-          <a href="#" class="paginator__prev">></a>
+          <div class="paginator">
+            <div class="paginator__display">
+              Страница <span class="span paginator__display-current">1</span> из
+              <span class="span paginator__display-all">7</span>
+            </div>
+            <ul class="paginator__list">
+              <li class="paginator__items">
+                <a href="" class="paginator__link">1</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">2</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">3</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">4</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">5</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">6</a>
+              </li>
+              <li class="paginator__items">
+                <a href="" class="paginator__link">7</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="partners">
           <h3>Партнеры</h3>
-          <ul class="type-partners"></ul>
-          <li class="type-partners__items">
-            <a
-              href="https://yandex.ru/company/"
-              class="type-partners__logo"
-              target="_blank"
-            >
-              <img
-                src="../img/services/yandex.png"
-                alt="yandex"
-                class="type-partners__img"
-            /></a>
-          </li>
-          <li class="type-partners__items">
-            <a
-              href="https://ramblergroup.com/"
-              class="type-partners__logo"
-              target="_blank"
-            >
-              <img
-                src="../img/services/rambler.png"
-                alt="rambler"
-                class="type-partners__img"
-            /></a>
-          </li>
-          <li class="type-partners__items">
-            <a
-              href="https://www.tinkoff.ru/"
-              class="type-partners__logo"
-              target="_blank"
-            >
-              <img
-                src="../img/services/tinkoff.png"
-                alt="tinkoff"
-                class="type-partners__img"
-            /></a>
-          </li>
-          <li class="type-partners__items">
-            <a
-              href="https://www.sberbank.ru/"
-              class="type-partners__logo"
-              target="_blank"
-            >
-              <img
-                src="../img/services/sberbank.png"
-                alt="sber"
-                class="type-partners__img"
-            /></a>
-          </li>
-          <li class="type-partners__items">
-            <a
-              href="https://www.renins.ru/"
-              class="type-partners__logo"
-              target="_blank"
-            >
-              <img
-                src="../img/services/renessans.png"
-                alt="renessans"
-                class="type-partners__img"
-            /></a>
-          </li>
-          <li class="type-partners__items">
-            <a
-              href="https://www.vtb.ru/"
-              class="type-partners__logo"
-              target="_blank"
-            >
-              <img
-                src="../img/services/vtb.png"
-                alt="vtb"
-                class="type-partners__img"
-            /></a>
-          </li>
-          <li class="type-partners__items">
-            <a
-              href="https://www.vostbank.ru/"
-              class="type-partners__logo"
-              target="_blank"
-            >
-              <img
-                src="../img/services/western.png"
-                alt="vost-bank"
-                class="type-partners__img"
-            /></a>
-          </li>
-          <li class="type-partners__items">
-            <a
-              href="https://www.open.ru/"
-              class="type-partners__logo"
-              target="_blank"
-            >
-              <img
-                src="../img/services/openbank.png"
-                alt="olpen-bank"
-                class="type-partners__img"
-            /></a>
-          </li>
+          <ul class="type-partners">
+            <li class="type-partners__items">
+              <a
+                href="https://yandex.ru/company/"
+                class="type-partners__logo"
+                target="_blank"
+              >
+                <img
+                  src="../img/services/yandex.png"
+                  alt="yandex"
+                  class="type-partners__img"
+              /></a>
+            </li>
+            <li class="type-partners__items">
+              <a
+                href="https://ramblergroup.com/"
+                class="type-partners__logo"
+                target="_blank"
+              >
+                <img
+                  src="../img/services/rambler.png"
+                  alt="rambler"
+                  class="type-partners__img"
+              /></a>
+            </li>
+            <li class="type-partners__items">
+              <a
+                href="https://www.tinkoff.ru/"
+                class="type-partners__logo"
+                target="_blank"
+              >
+                <img
+                  src="../img/services/tinkoff.png"
+                  alt="tinkoff"
+                  class="type-partners__img"
+              /></a>
+            </li>
+            <li class="type-partners__items">
+              <a
+                href="https://www.sberbank.ru/"
+                class="type-partners__logo"
+                target="_blank"
+              >
+                <img
+                  src="../img/services/sberbank.png"
+                  alt="sber"
+                  class="type-partners__img"
+              /></a>
+            </li>
+            <li class="type-partners__items">
+              <a
+                href="https://www.renins.ru/"
+                class="type-partners__logo"
+                target="_blank"
+              >
+                <img
+                  src="../img/services/renessans.png"
+                  alt="renessans"
+                  class="type-partners__img"
+              /></a>
+            </li>
+            <li class="type-partners__items">
+              <a
+                href="https://www.vtb.ru/"
+                class="type-partners__logo"
+                target="_blank"
+              >
+                <img
+                  src="../img/services/vtb.png"
+                  alt="vtb"
+                  class="type-partners__img"
+              /></a>
+            </li>
+            <li class="type-partners__items">
+              <a
+                href="https://www.vostbank.ru/"
+                class="type-partners__logo"
+                target="_blank"
+              >
+                <img
+                  src="../img/services/western.png"
+                  alt="vost-bank"
+                  class="type-partners__img"
+              /></a>
+            </li>
+            <li class="type-partners__items">
+              <a
+                href="https://www.open.ru/"
+                class="type-partners__logo"
+                target="_blank"
+              >
+                <img
+                  src="../img/services/openbank.png"
+                  alt="olpen-bank"
+                  class="type-partners__img"
+              /></a>
+            </li>
+          </ul>
         </div>
       </main>
       <footer class="footer">
@@ -239,41 +254,43 @@
             </ul>
           </nav>
         </aside>
-        <ul class="network">
-          <li class="network__item">
-            <a href="#" class="network__link">
-              <img
-                src="../img/logo/telegram.png"
-                alt="telegtam"
-                class="network__img"
-            /></a>
-          </li>
-          <li class="network__item">
-            <a href="#" class="network__link"
-              ><img src="../img/logo/vk.png" alt="vk" class="network__img"
-            /></a>
-          </li>
-          <li class="network__item">
-            <a href="#" class="network__link"
-              ><img
-                src="../img/logo/facebook.png"
-                alt="fb"
-                class="network__img"
-            /></a>
-          </li>
-          <li class="network__item">
-            <a href="#" class="network__lin k">
-              <img
-                src="../img/logo/instagram.png"
-                alt="instegram"
-                class="network__img"
-              />
-            </a>
-          </li>
-        </ul>
+        <div class="network">
+          <ul class="network__list">
+            <li class="network__item">
+              <a href="#" class="network__link">
+                <img
+                  src="../img/logo/telegram.png"
+                  alt="telegtam"
+                  class="network__img"
+              /></a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__link"
+                ><img src="../img/logo/vk.png" alt="vk" class="network__img"
+              /></a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__link"
+                ><img
+                  src="../img/logo/facebook.png"
+                  alt="fb"
+                  class="network__img"
+              /></a>
+            </li>
+            <li class="network__item">
+              <a href="#" class="network__lin k">
+                <img
+                  src="../img/logo/instagram.png"
+                  alt="instegram"
+                  class="network__img"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
         <address class="contacts">
+          <div class="contacts__work">бесплатный звонок по России</div>
           <a href="tel: +7800700303" class="contacts__phone">8 800 700 30 30</a>
-          <div class="contacts__workhours">график работы</div>
         </address>
       </footer>
     </div>
