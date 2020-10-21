@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
     <title>Разметка</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
         <a href="/forms/main.html" class="logo">
-          <img
-            src="../img/logo/logo-vertical.png"
-            alt="logo"
-            class="logo__pic"
-          />
+          <img src="../img/logo/logo.png" alt="logo" class="logo__pic" />
         </a>
         <aside class="sidebar">
           <nav class="menu">
@@ -44,10 +45,12 @@
       <main class="main-content">
         <div>
           <div class="promo">
-            <h1 class="promo__title">Не отказывай в желании быть первывым</h1>
+            <h1 class="promo__title">
+              Не отказывай себе в желании быть первывым
+            </h1>
             <p class="promo__slogan">Банк с львиным характером</p>
             <div class="promo__button">
-              <button class="promo__button">подробнее</button>
+              <button class="promo__button">ПОДРОБНЕЕ</button>
             </div>
           </div>
           <div class="offers">
@@ -117,7 +120,7 @@
           <h3 class="news__first-title">Новости и акции</h3>
           <ul class="news__list">
             <li class="news__item">
-              <div>
+              <div class="news__main">
                 <img
                   src="../img/1padge/phone.jpg"
                   alt="phone"
@@ -125,21 +128,22 @@
                 />
                 <div class="news__data">ноябрь 2019</div>
                 <h5 class="news__second-title">Удобное мобильное приложение</h5>
-                <p class="news_comment">Хороший банк хорошие условия</p>
+                <p class="news__comment">Хороший банк хорошие условия</p>
               </div>
             </li>
             <li class="news__item">
-              <div>
+              <div class="news__main">
                 <img
                   src="../img/1padge/mountains.jpg"
                   alt="mountains"
                   class="news__img"
                 />
+
                 <div class="news__data">ноябрь 2019</div>
                 <h5 class="news__second-title">
                   Копите на поездку? Откройте счет!
                 </h5>
-                <p class="news_comment">Хороший банк хорошие условия</p>
+                <p class="news__comment">Хороший банк хорошие условия</p>
               </div>
             </li>
           </ul>
@@ -190,11 +194,7 @@
       <hr />
       <footer class="footer">
         <a href="./main.html" class="logo">
-          <img
-            src="../img/logo/logo-vertical.png"
-            alt="logo"
-            class="logo__pic"
-          />
+          <img src="../img/logo/logo.png" alt="logo" class="logo__pic" />
         </a>
         <aside class="sidebar">
           <nav class="menu">
