@@ -145,7 +145,7 @@ p{
 
 .btn--color--ginger:hover {
     background: #d3a556;
-    box-shadow: 0 0 25 0 rgba(223, 181, 109, .15);
+    box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);
 }
 
 .btn:hover {
