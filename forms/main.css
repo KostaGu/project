@@ -386,9 +386,9 @@ margin-right: 26px;
 }
 
 .footer {
-    height: 152px;
-    position: relative;
-    
+    height: 140x;
+    position: relative;  
+    margin-top: 12px;
 }
 
 .socials__item {
