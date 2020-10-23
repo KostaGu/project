@@ -349,6 +349,7 @@ margin-right: 26px;
     content: "";
     width: 488px;
     height: 502px;
+    border-radius: 4px;
     background: url("../img/1padge/chess.jpg") center center / cover no-repeat;
 }
 
@@ -358,6 +359,8 @@ margin-right: 26px;
     width: 780px;
     margin-left: -134px;
     margin-top: 109px;
+    border-radius: 5px;
+    min-height: 455px;
 }
 
 .about__title {
