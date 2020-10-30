@@ -554,6 +554,7 @@ align-items: center;
 .breadcrums__link {
     color: #dfb56d;
     font-size: 14px; 
+    padding: 2px;
 }
 
 .breadcrums__item {
@@ -564,6 +565,7 @@ align-items: center;
 .breadcrums__item--active .breadcrums__link  {
     color: #999999;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .breadcrums__item:after {
@@ -587,7 +589,7 @@ margin-bottom: 65px;
 
 .service {
     display: flex;
-    padding: 58px 43px;
+    padding: 40px 30px;
     text-decoration: none;
 }
 
@@ -646,7 +648,7 @@ margin-bottom: 65px;
     padding: 95px 0;
 }
 
-.inner-selection--bg--grey {
+.inner-section--bg--grey {
     background: #f4f5f5;
 }
 
