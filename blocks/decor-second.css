@@ -1,0 +1,30 @@
+.contacts__dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #D3A557;
+}
+
+.top-line {
+    min-height: 415px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    background: #202123 url(../img/css/lion-head-wide.jpg) right 25% top no-repeat;
+}
+
+.header {
+    padding-top: 25px;
+}
+
+.top-line__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: bold;
+}
