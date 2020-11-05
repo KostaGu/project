@@ -9,145 +9,170 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
-        <a href="./main.html" class="logo">
-          <img
-            src="../img/logo/logo-vertical.png"
-            alt="logo"
-            class="logo__pic"
-          />
-        </a>
-        <aside class="sidebar">
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <div class="menu__title">
+      <div class="container top-line__container">
+        <header class="header">
+          <div class="header__col">
+            <a href="/forms/main.html" class="logo">
+              <img src="../img/logo/logo.png" alt="logo" class="logo__pic" />
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
                   <a href="./main.html" class="menu__link">Главная</a>
-                </div>
-              </li>
-              <li class="menu__item">
-                <div class="menu__title">
+                </li>
+                <li class="menu__item menu__item--active">
                   <a href="./services.html" class="menu__link">Услуги</a>
-                </div>
-              </li>
-              <li class="menu__item">
-                <div class="menu__title">
+                </li>
+                <li class="menu__item">
                   <a href="./reviews.html" class="menu__link">Отзывы</a>
-                </div>
-              </li>
-            </ul>
-          </nav>
-        </aside>
-        <address class="contacts">
-          <a href="tel: +7800700303" class="contacts__phone">8 800 700 30 30</a>
-          <div class="contacts__workhours">график работы</div>
-        </address>
-        <h1>Отзывы</h1>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__col--align--right">
+            <address class="contacts">
+              <a href="tel:+7800700303" class="contacts__phone"
+                >8 800 700 30 30</a
+              >
+              <div class="contacts__dropdown-title">График работы</div>
+            </address>
+          </div>
+        </header>
+        <h1 class="title">Услуги</h1>
         <nav class="breadcrums">
           <ul class="breadcrums__list">
-            <il class="breadcrums__items">
-              <a href="./main.html" class="breadcrums__list">Главная</a>
+            <il class="breadcrums__item">
+              <a href="./main.html" class="breadcrums__link"> Главная </a>
             </il>
-            <il class="breadcrums__items">
-              <a href="./reviews.html" class="breadcrums__items_active"
-                >Отзывы</a
-              >
+            <il class="breadcrums__item breadcrums__item--active">
+              <a href="./services.html" class="breadcrums__link"> Oтзывы </a>
             </il>
           </ul>
         </nav>
-      </header>
-      <main class="revew">
-        <div class="revew-members">
-          <ul class="revew-members__list">
-            <li class="revew-members__item">
-              <img src="../img/reviews/ginger.jpg" alt="photo" />
-              <div>
-                <h4>Иван</h4>
-                <img src="../img/logo/vk-colored.png" alt="logo-vk" />
-                <ul>
-                  <li>Карта банка</li>
-                  <li>Ипотека</li>
-                </ul>
+      </div>
+      <main class="page__content">
+        <div class="container">
+          <ul class="reviews">
+            <li class="reviews__item review">
+              <div class="reviews__header">
+                <div class="review__photo">
+                  <div class="avatar">
+                    <img src="../img/reviews/ginger.jpg" alt="photo" />
+                  </div>
+                </div>
+                <div class="review__userdata">
+                  <a href="#" class="review__user">Иван</a>
+                  <ul class="review__tag">
+                    <li class="review__tag-item tag tag--bg--green">Карта банка</li>
+                    <li class="review__tag-item tag tag--bg--green">Карта банка</li>
+                  </ul>
+                </div>
               </div>
-              <div>
-                <h3>Доволен работой банка</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi, facilis.
-                </p>
+               <div class="review__content">
+                 <h3 class="review__title">Доволен работой банка</h3>
+                  <div class="review__content-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Excepturi, facilis.
+                    </p>
+                  </div>
+                  <time class="review__data">Ноябрь 2019</time>
+               </div>
+             </li>
+             <li class="reviews__item review">
+              <div class="reviews__header">
+                <div class="review__photo">
+                  <div class="avatar">
+                    <img src="../img/reviews/ginger.jpg" alt="photo" />
+                  </div>
+                </div>
+                <div class="review__userdata">
+                  <a href="#" class="review__user">Иван</a>
+                  <ul class="review__tag">
+                    <li class="review__tag-item tag tag--bg--green">Карта банка</li>
+                    <li class="review__tag-item tag tag--bg--green">Карта банка</li>
+                  </ul>
+                </div>
               </div>
-              <div class="data">Ноябрь 2019</div>
-            </li>
-            <li class="revew-members__item">
-              <img src="../img/reviews/girl.jpg" alt="photo" />
-              <div>
-                <h4>Екатерина</h4>
-                <img src="../img/logo/vk-colored.png" alt="logo-vk" />
-                <ul>
-                  <li>Ипотека</li>
-                </ul>
+               <div class="review__content">
+                 <h3 class="review__title">Доволен работой банка</h3>
+                  <div class="review__content-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Excepturi, facilis.
+                    </p>
+                  </div>
+                  <time class="review__data">Ноябрь 2019</time>
+               </div>
+             </li>
+             <li class="reviews__item review">
+              <div class="reviews__header">
+                <div class="review__photo">
+                  <div class="avatar">
+                    <img src="../img/reviews/ginger.jpg" alt="photo" />
+                  </div>
+                </div>
+                <div class="review__userdata">
+                  <a href="#" class="review__user">Иван</a>
+                  <ul class="review__tag">
+                    <li class="review__tag-item tag tag--bg--green">Карта банка</li>
+                    <li class="review__tag-item tag tag--bg--green">Карта банка</li>
+                  </ul>
+                </div>
               </div>
-              <div>
-                <h3>Удобная служба поддкржки</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi, facilis.
-                </p>
+               <div class="review__content">
+                 <h3 class="review__title">Доволен работой банка</h3>
+                  <div class="review__content-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Excepturi, facilis.
+                    </p>
+                  </div>
+                  <time class="review__data">Ноябрь 2019</time>
+               </div>
+             </li>
+             <li class="reviews__item review">
+              <div class="reviews__header">
+                <div class="review__photo">
+                  <div class="avatar">
+                    <img src="../img/reviews/ginger.jpg" alt="photo" />
+                  </div>
+                </div>
+                <div class="review__userdata">
+                  <a href="#" class="review__user">Иван</a>
+                  <ul class="review__tag">
+                    <li class="review__tag-item tag tag--bg--green">Карта банка</li>
+                    <li class="review__tag-item tag tag--bg--green">Карта банка</li>
+                  </ul>
+                </div>
               </div>
-              <div class="data">Ноябрь 2019</div>
-            </li>
-            <li class="revew-members__item">
-              <img src="../img/reviews/liza.jpg" alt="photo" />
-              <div>
-                <h4>Лиза</h4>
-                <img src="../img/logo/vk-colored.png" alt="logo-vk" />
-                <ul>
-                  <li>Карта банка</li>
-                </ul>
+               <div class="review__content">
+                 <h3 class="review__title">Доволен работой банка</h3>
+                  <div class="review__content-text">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Excepturi, facilis.
+                    </p>
+                  </div>
+                  <time class="review__data">Ноябрь 2019</time>
+               </div>
+             </li>
+            </ul>
+          </div>
+            <div class="paginator">
+              <div class="paginator__display">
+                Страница <span class="span paginator__display-current">1</span> из
+                <span class="span paginator__display-all">7</span>
               </div>
-              <div>
-                <h3>Хорошие условия</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi, facilis.
-                </p>
-              </div>
-              <div class="data">Ноябрь 2019</div>
-            </li>
-            <li class="revew-members__item">
-              <img src="../img/reviews/guy.jpg" alt="photo" />
-              <div>
-                <h4>Антон</h4>
-                <img src="../img/logo/vk-colored.png" alt="logo-vk" />
-                <ul>
-                  <li>Автокредит</li>
-                </ul>
-              </div>
-              <div>
-                <h3>Операторы вежливые</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi, facilis.
-                </p>
-              </div>
-              <div class="data">Ноябрь 2019</div>
-            </li>
-          </ul>
-
-          <div class="paginator">
-            <div class="paginator__display">
-              Страница <span class="span paginator__display-current">1</span> из
-              <span class="span paginator__display-all">7</span>
-            </div>
-            <ul class="paginator__list">
-              <li class="paginator__items">
-                <a href="" class="paginator__link">1</a>
-              </li>
-              <li class="paginator__items">
-                <a href="" class="paginator__link">2</a>
-              </li>
-              <li class="paginator__items">
-                <a href="" class="paginator__link">3</a>
+              <ul class="paginator__list">
+                <li class="paginator__items">
+                  <a href="" class="paginator__link">1</a>
+                </li>
+                <li class="paginator__items">
+                  <a href="" class="paginator__link">2</a>
+                </li>
+                <li class="paginator__items">
+                  <a href="" class="paginator__link">3</a>
               </li>
               <li class="paginator__items">
                 <a href="" class="paginator__link">4</a>
@@ -166,9 +191,9 @@
         </div>
         <div class="mobile">
           <img
-            src="../img/reviews/phone-n-hand.png"
-            alt="phone"
-            class="mobile__img"
+          src="../img/reviews/phone-n-hand.png"
+          alt="phone"
+          class="mobile__img"
           />
           <h2 class="mobile-title">Lion-online</h2>
         </div>
