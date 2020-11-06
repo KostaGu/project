@@ -1,0 +1,86 @@
+.reviews {
+    column-count: 2;
+    column-gap: 30px;
+    padding: 70px 0px;
+}
+.page__content {
+    background: #ffffff;
+    color:  #818181;
+    }
+
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background: #f4f5f5;
+}
+
+.reviews__item {
+    margin-bottom: 20px;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review__photo {
+    margin-right: 30px;
+}
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4b76a1;
+    margin-bottom: 11px;
+}
+
+.review__user:after {
+    content: url(../img/logo/vk-colored.png);
+    height: 29px;
+    padding: 10px;
+}
+
+.review__tag {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tag {
+    font-size: 13px;
+    color: #333;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background: #e6e6e6;
+}
+
+.tag--bg--green {
+    background: #c7e9d0;
+}
+
+.review__title {
+    font-size: 30px;
+    color: #202123;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.review__content-text {
+    margin-bottom: 50px;
+}
+
+.review__data {
+    font-size: 14px;
+    color: #202123;
+    font-weight: bold;
+}
