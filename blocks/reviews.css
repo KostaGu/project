@@ -1,7 +1,12 @@
 .reviews {
     column-count: 2;
     column-gap: 30px;
+    padding: 70px 0px;
 }
+.page__content {
+    background: #ffffff;
+    color:  #818181;
+    }
 
 .review {
     display: inline-flex;
@@ -27,6 +32,10 @@
     border-radius: 50%;
 }
 
+.review__photo {
+    margin-right: 30px;
+}
+
 .review__user {
     display: flex;
     align-items: center;
@@ -39,9 +48,10 @@
 .review__user:after {
     content: url(../img/logo/vk-colored.png);
     height: 29px;
+    padding: 10px;
 }
 
-.review__tags {
+.review__tag {
     display: flex;
     align-items: flex-start;
 }
